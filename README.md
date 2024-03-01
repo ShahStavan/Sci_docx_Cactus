@@ -6,6 +6,7 @@ Sci-docx is an advanced RAG (Retrieval-Augmented Generation) model tailored for 
 - [Introduction](#introduction)
 - [How RAG Model Works](#how-rag-model-works)
 - [Features](#features)
+- [Limitations of Our Model](#limitations)
 - [Getting Started](#getting-started)
 - [Library Usage](#library-usage)
 - [See the TestCases Output](#testcases-output)
@@ -27,13 +28,26 @@ The Retrieval-Augmented Generation (RAG) model is a two-step process:
 
 ## Features
 
-- **Scientific Document Training:** Sci-docx is specifically designed to be trained on scientific documents, ensuring its understanding of technical language and context.
+1 **Scientific Document Training:** Sci-docx is specifically designed to be trained on scientific documents, ensuring its understanding of technical language and context.
 
-- **RAG Architecture:** Leveraging the RAG model, Sci-docx combines effective retrieval and generation steps to provide accurate and contextually relevant outputs.
+2 **RAG Architecture:** Leveraging the RAG model, Sci-docx combines effective retrieval and generation steps to provide accurate and contextually relevant outputs.
 
-- **User-Friendly Interface:** An intuitive interface allows users to upload and process their scientific documents seamlessly using <strong> NextJS </strong> and <strong> ShadCN Library </strong>.
+3 **User-Friendly Interface:** An intuitive interface allows users to upload and process their scientific documents seamlessly using <strong> NextJS </strong> and <strong> ShadCN Library </strong>.
 
-- **Flexible Usage:** Whether you're looking to understand complex scientific papers or generate concise summaries, Sci-docx adapts to various use cases.
+4 **Flexible Usage:** Whether you're looking to understand complex scientific papers or generate concise summaries, Sci-docx adapts to various use cases.
+
+## Limitations
+1. **Specificity Requirement:**
+   - The model performs optimally when the prompt query is highly specific. General or vague queries may result in less accurate or improper answers.
+
+2. **Potential for Improper Answers:**
+   - In cases where the prompt query lacks specificity, the model may generate responses that are not aligned with the user's expectations, leading to potential inaccuracies.
+
+3. **Training Time Considerations:**
+   - Handling multiple file types concurrently during training may extend the processing time. Users should anticipate longer durations when dealing with diverse document formats simultaneously.
+
+4. **Scalability Challenges:**
+   - Achieving scalability requires a significant investment of resources and capital, particularly when utilizing APIs for pre-trained models. Consideration should be given to scalability requirements and associated costs for optimal performance.
 
 ## Getting Started
 
