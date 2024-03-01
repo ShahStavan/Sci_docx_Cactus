@@ -1,4 +1,4 @@
-# Sci-docx.AI
+# SciDocx.AI
 
 Sci-docx is an advanced RAG (Retrieval-Augmented Generation) model tailored for training on scientific documents uploaded by the user. This model combines powerful retrieval mechanisms with state-of-the-art language generation capabilities to enhance the understanding and generation of scientific content.
 
