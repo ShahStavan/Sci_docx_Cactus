@@ -1,0 +1,12 @@
+firebase-admin
+Flask
+PyMuPDF
+llama-index
+pandas
+werkzeug
+uuid
+flask_cors
+EbookLib
+docx2txt
+nbconvert
+python-pptx
