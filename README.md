@@ -9,6 +9,7 @@ Sci-docx is an advanced RAG (Retrieval-Augmented Generation) model tailored for 
 - [Limitations of Our Model](#limitations)
 - [Getting Started](#getting-started)
 - [Library Usage](#library-usage)
+- [Sci-docx Web](#Sci-docs)
 - [See the TestCases Output](#testcases-output)
 - [Flask Model and API Endpoints](#flask_model)
 - [Streamlit Integrated Chat Bot using Custom Embedding](#streamlit_app)
@@ -141,6 +142,13 @@ To get started with Sci-docx, follow these steps:
 
 - **pptx:**
   - *Purpose:* pptx is a library used for working with PowerPoint files in Python. It provides functionality to parse and manipulate PowerPoint presentations, including extracting text from slides.
+ 
+## Sci-Docx Demo Video
+[![Watch the Video](https://youtu.be/MyELUo-rLp8)](https://youtu.be/MyELUo-rLp8)
+
+You can check code in web-app branch.
+
+
  
 ## TestCases Output
 
